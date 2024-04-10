@@ -17,16 +17,48 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 
-
+/**
+ *  Päivittäistä makroravinteiden seurantaa käsittelevän luokan käyttöliittymä, jossa käyttäjä voi tallentaa
+ *  päivittäiset makroravinteidensa määrän haluttuna päivänä ja katsastella aiemmin tallennettuja päiviä ja
+ *  näiden tietoja käyttöliittymästä.
+ * @author Severi Salminen
+ * @version 1.0
+ */
 public class makroravinteetGrafiikka extends Application {
+    /**
+     *  Listview jossa näytetään tallennetut päivämäärät
+     */
+    private ListView<String> pvmListView;
+    /**
+     *   textarea jossa näytetään valitun päivämäärän tiedot
+     */
+    private TextArea ravintoTekstiarea;
+    /**
+     *    Arraylist tallennetuille päivämäärille
+     */
+    private ObservableList<String> pvmLista = FXCollections.observableArrayList();
+    /**
+     *    Arraylist tallennetuille makroravinteille
+     */
+    private ArrayList<makroravinteet> makroravinteetLista;
+    /**
+     *    Päivämäärän muotoilija
+     */
+    private DateTimeFormatter pvmMuotoilu = DateTimeFormatter.ofPattern("dd.MM.yyyy");
+    /**
+     *    Tiedosto johon kaikki tallennettavat tiedot tallennetaan
+     */
+    private File tiedosto = new File("makroravinteet_tallennettu.dat");
 
-    private ListView<String> pvmListView; //Listview jossa näytetään tallennetut päivämäärät
-    private TextArea ravintoTekstiarea; //textarea jossa näytetään valittu pvm data
-    private ObservableList<String> pvmLista = FXCollections.observableArrayList(); //Arraylist päivämäärille
-    private ArrayList<makroravinteet> makroravinteetLista; // lista makroille
-    private DateTimeFormatter pvmMuotoilu = DateTimeFormatter.ofPattern("dd.MM.yyyy"); // päivämäärän muotoilu MM isolla koska pienellä tarkoittaa minuutteja
-    private File tiedosto = new File("makroravinteet_tallennettu.dat"); //tiedosto
-
+    /**
+     *    Metodi joka tallentaa tiedot tiedostoon
+     * @param pvmS
+     * @param proteiiniS
+     * @param rasvatS
+     * @param sokeritS
+     * @param hiilihydraatitS
+     * @param kaloritS
+     */
     private void tallennaTiedostoon(String pvmS, String proteiiniS, String rasvatS, String sokeritS,
                                     String hiilihydraatitS, String kaloritS) {
         try{
@@ -67,6 +99,12 @@ public class makroravinteetGrafiikka extends Application {
         }
     }
 
+    /**
+     *  Metodi joka tarkistaa onko annettu merkkijono mahdollista muutta numeroiksi
+     *  @param str tarkistettava merkkijono
+     *  @return True, jos merkkijono on muutettavissa numeroiksi,
+     *          False muussa tapauksessa
+     */
     private boolean onkoNumero(String str){
         try {
             Double.parseDouble(str);
@@ -76,13 +114,18 @@ public class makroravinteetGrafiikka extends Application {
         }
     }
 
+    /**
+     *  Lataa makroravinteiden tiedot tiedostosta ja lisää ladatun päivämäärän päivämäärä-listaan
+     */
     private void lataaTiedostosta() {
         makroravinteetLista = makroravinteetTiedosto.lataaTiedostosta(tiedosto);
         for (makroravinteet tiedot : makroravinteetLista) {
             pvmLista.add(tiedot.getPvm().format(pvmMuotoilu));
         }
     }
-
+    /**
+     *  Ohjelmaikkunan käynnistyksen, toiminnallisuuden ja asettelun määrittely.
+     */
     @Override
     public void start(Stage primaryStage){
         // teksti kentän asetukset
