@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4800257-8e16-41b1-8af1-1627e7214d9d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/harjoitustyo2/makroravinteet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/harjoitustyo2/makroravinteetGrafiikka.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/harjoitustyo2/makroravinteetTiedosto.java" afterDir="false" />
+    <list default="true" id="e4800257-8e16-41b1-8af1-1627e7214d9d" name="Changes" comment="javadoc korjailua ja kuvien lisääminen grafiikkaan">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/harjoitustyo2/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/harjoitustyo2/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/harjoitustyo2/makroravinteet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/harjoitustyo2/makroravinteet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/harjoitustyo2/makroravinteetGrafiikka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/harjoitustyo2/makroravinteetGrafiikka.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/harjoitustyo2/makroravinteetTiedosto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/harjoitustyo2/makroravinteetTiedosto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +28,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="ec7c44e1-fab5-4466-a682-a837ef73e4eb" />
+        <option name="url" value="https://github.com/foxesdancing/harjoitustyo2.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -39,6 +51,9 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2eg6YpF5K99JiNj3s1bpVPIoryN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -48,9 +63,18 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Severi/IdeaProjects/harjoitustyo2/src/main/resources&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Severi\IdeaProjects\harjoitustyo2\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Severi\IdeaProjects\harjoitustyo2\src\main\resources" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="makroravinteetGrafiikka" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.harjoitustyo2.makroravinteetGrafiikka" />
@@ -61,19 +85,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="harjoitustyo_2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="harjoitustyo_2" />
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -93,6 +104,61 @@
       <option name="presentableId" value="Default" />
       <updated>1712313926636</updated>
     </task>
+    <task id="LOCAL-00001" summary="Koodiin lisätty ominaisuus havaita virheellisiä syötteitä ja näyttää käyttäjälle ilmoitus jos syötevirhe tapahtuu.">
+      <created>1712674030313</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712674030313</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Javadoc lisätty">
+      <created>1712763217292</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712763217292</updated>
+    </task>
+    <task id="LOCAL-00003" summary="gif ruualle">
+      <created>1712771122627</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712771122627</updated>
+    </task>
+    <task id="LOCAL-00004" summary="kuva.png">
+      <created>1712772672356</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712772672356</updated>
+    </task>
+    <task id="LOCAL-00005" summary="javadoc korjailua ja kuvien lisääminen grafiikkaan">
+      <created>1712772727032</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712772727032</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Koodiin lisätty ominaisuus havaita virheellisiä syötteitä ja näyttää käyttäjälle ilmoitus jos syötevirhe tapahtuu." />
+    <MESSAGE value="Javadoc lisätty" />
+    <MESSAGE value="gif ruualle" />
+    <MESSAGE value="kuva.png" />
+    <MESSAGE value="javadoc korjailua ja kuvien lisääminen grafiikkaan" />
+    <option name="LAST_COMMIT_MESSAGE" value="javadoc korjailua ja kuvien lisääminen grafiikkaan" />
   </component>
 </project>

@@ -133,4 +133,3 @@ public class makroravinteet implements Serializable {
                 "Hiilihydraatit: " + hiilihydraatit;
     }
 }
-

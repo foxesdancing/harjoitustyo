@@ -19,7 +19,7 @@ public class makroravinteetTiedosto {
     private static final DateTimeFormatter pvmMuotoilu = DateTimeFormatter.ofPattern("dd.MM.yyyy"); // päivämäärän muotoilu MM isolla koska pienellä tarkoittaa minuutteja
     /**
      * Metodi joka tallentaa makroravinteiden tiedot tiedostoon.
-     * @param tiedosto
+     * @param tiedosto              Tiedosto johon tiedot tallennetaan
      * @param pvmS                  Päivämäärä merkkijonona muodossa "dd.MM.yyyy"
      * @param proteiiniS            Proteiinin määrä merkkijonona
      * @param rasvatS               Rasvojen määrä merkkijonona
@@ -38,7 +38,7 @@ public class makroravinteetTiedosto {
     }
     /**
      * Metodi joka lataa tiedot tiedostosta
-     * @param tiedosto
+     * @param tiedosto      Tiedosto johon tiedot tallennetaan
      * @return makroravinteetLista
      */
     public static ArrayList<makroravinteet> lataaTiedostosta(File tiedosto) {
@@ -60,8 +60,7 @@ public class makroravinteetTiedosto {
                 }
             }
         } catch (IOException e) {
-            // tulostetaan virheviesti ja jäljitetään virheen syy
-            e.printStackTrace();
+
         } catch (DateTimeParseException | NumberFormatException e) {
             // Jos päivämäärän tai makroravinteiden määrän muunnos epäonnistuu, tulostetaan virheviesti
             System.err.println("Virheellinen muoto tiedostossa:" + e.getMessage());

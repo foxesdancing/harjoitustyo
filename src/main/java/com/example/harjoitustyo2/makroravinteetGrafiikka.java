@@ -3,7 +3,6 @@ package com.example.harjoitustyo2;
 import javafx.application.Application;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
-import javafx.scene.layout.HBox;
 import javafx.stage.Stage;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -51,16 +50,6 @@ public class makroravinteetGrafiikka extends Application {
     private File tiedosto = new File("makroravinteet_tallennettu.dat");
 
     /**
-     *    Metodi joka tallentaa tiedot tiedostoon
-     * @param pvmS
-     * @param proteiiniS
-     * @param rasvatS
-     * @param sokeritS
-     * @param hiilihydraatitS
-     * @param kaloritS
-     */
-
-    /**
      *  Ohjelmaikkunan käynnistyksen, toiminnallisuuden ja asettelun määrittely.
      */
     @Override
@@ -92,25 +81,39 @@ public class makroravinteetGrafiikka extends Application {
         });
 
         // kentät ravintotietojen syöttämiselle
+        /**
+         *  Päivämäärän tekstikentta
+         */
         TextField pvmKentta = new TextField();
         pvmKentta.setPromptText("Pvm (DD.MM.YYYY)");
-
+        /**
+         *  Proteiinin tekstikentta
+         */
         TextField proteiiniKentta = new TextField();
         proteiiniKentta.setPromptText("Proteiini (g)");
-
+        /**
+         *  Rasvojen tekstikentta
+         */
         TextField rasvatKentta = new TextField();
         rasvatKentta.setPromptText("Rasvat (g)");
-
+        /**
+         *  Sokerien tekstikentta
+         */
         TextField sokeritKentta = new TextField();
         sokeritKentta.setPromptText("Sokerit (g)");
-
+        /**
+         *  Hiilihydraattien tekstikentta
+         */
         TextField hiilihydKentta = new TextField();
         hiilihydKentta.setPromptText("Hiilihydraatit (g)");
-
+        /**
+         *  Kalorien tekstikentta
+         */
         TextField kaloritKentta = new TextField();
         kaloritKentta.setPromptText("Kalorit");
-
-        // button jolla tallennetaan tiedot
+        /**
+         *  button jolla tallennetaan tiedot tiedostoon
+         */
         Button tallennaButton = new Button("Tallenna");
         tallennaButton.setOnAction(event -> {
             tallennaTiedostoon(pvmKentta.getText(),proteiiniKentta.getText(),rasvatKentta.getText(),
@@ -157,6 +160,17 @@ public class makroravinteetGrafiikka extends Application {
         primaryStage.setScene(scene);
         primaryStage.show();
     }
+
+    /**
+     *    Metodi joka tallentaa tiedot tiedostoon
+     * @param pvmS
+     * @param proteiiniS
+     * @param rasvatS
+     * @param sokeritS
+     * @param hiilihydraatitS
+     * @param kaloritS
+     */
+
     private void tallennaTiedostoon(String pvmS, String proteiiniS, String rasvatS, String sokeritS,
                                     String hiilihydraatitS, String kaloritS) {
         try{
@@ -222,4 +236,3 @@ public class makroravinteetGrafiikka extends Application {
         }
     }
 }
-
