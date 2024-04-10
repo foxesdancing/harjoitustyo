@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4800257-8e16-41b1-8af1-1627e7214d9d" name="Changes" comment="javadoc korjailua ja kuvien lisääminen grafiikkaan">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/harjoitustyo2/makroravinteet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/harjoitustyo2/makroravinteet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/harjoitustyo2/makroravinteetGrafiikka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/harjoitustyo2/makroravinteetGrafiikka.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/harjoitustyo2/makroravinteetTiedosto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/harjoitustyo2/makroravinteetTiedosto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-    </list>
+    <list default="true" id="e4800257-8e16-41b1-8af1-1627e7214d9d" name="Changes" comment="1.0" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712772727032</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1.0">
+      <created>1712778699223</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712778699223</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,6 +159,7 @@
     <MESSAGE value="gif ruualle" />
     <MESSAGE value="kuva.png" />
     <MESSAGE value="javadoc korjailua ja kuvien lisääminen grafiikkaan" />
-    <option name="LAST_COMMIT_MESSAGE" value="javadoc korjailua ja kuvien lisääminen grafiikkaan" />
+    <MESSAGE value="1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0" />
   </component>
 </project>
