@@ -33,7 +33,7 @@ public class makroravinteetTiedosto {
             writer.println(pvmS + "," + proteiiniS + "," + rasvatS + "," + sokeritS + "," + hiilihydraatitS + "," + kaloritS);
             writer.flush();
         } catch (IOException e) {
-            System.out.println("Virhe tiedostoon kirjoittamisessa.");
+            System.out.println("Virhe tiedostoon kirjoittamisessa");
         }
     }
     /**
