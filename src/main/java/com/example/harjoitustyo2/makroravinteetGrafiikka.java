@@ -20,6 +20,10 @@ import java.util.ArrayList;
  *  Päivittäistä makroravinteiden seurantaa käsittelevän luokan käyttöliittymä, jossa käyttäjä voi tallentaa
  *  päivittäiset makroravinteidensa määrän haluttuna päivänä ja katsastella aiemmin tallennettuja päiviä ja
  *  näiden tietoja käyttöliittymästä.
+ *  Ohjelmassa on käytettyjen kuvan ja videon lähteet:
+ *  https://www.pexels.com/fi-fi/video/3209214/
+ *  https://www.pexels.com/fi-fi/kuva/mies-hiekka-pilvet-fitness-2827392/
+ *
  * @author Severi Salminen
  * @version 1.0
  */
@@ -116,7 +120,7 @@ public class makroravinteetGrafiikka extends Application {
          */
         Button tallennaButton = new Button("Tallenna");
         tallennaButton.setOnAction(event -> {
-            tallennaTiedostoon(pvmKentta.getText(),proteiiniKentta.getText(),rasvatKentta.getText(),
+            tallennaTiedot(pvmKentta.getText(),proteiiniKentta.getText(),rasvatKentta.getText(),
                     sokeritKentta.getText(),hiilihydKentta.getText(),kaloritKentta.getText());
             pvmKentta.clear();
             proteiiniKentta.clear();
@@ -152,7 +156,7 @@ public class makroravinteetGrafiikka extends Application {
         paneeli.setCenter(ravintoTekstiarea);
         paneeli.setRight(vboxi2);
 
-        lataaTiedostosta();
+        lataaTiedot();
 
         // scenen luominen
         Scene scene = new Scene(paneeli, 800,500);
@@ -171,7 +175,7 @@ public class makroravinteetGrafiikka extends Application {
      * @param kaloritS
      */
 
-    private void tallennaTiedostoon(String pvmS, String proteiiniS, String rasvatS, String sokeritS,
+    private void tallennaTiedot(String pvmS, String proteiiniS, String rasvatS, String sokeritS,
                                     String hiilihydraatitS, String kaloritS) {
         try{
             LocalDate parsedPvm = LocalDate.parse(pvmS, pvmMuotoilu);
@@ -229,7 +233,7 @@ public class makroravinteetGrafiikka extends Application {
     /**
      *  Lataa makroravinteiden tiedot tiedostosta ja lisää ladatun päivämäärän päivämäärä-listaan
      */
-    private void lataaTiedostosta() {
+    private void lataaTiedot() {
         makroravinteetLista = makroravinteetTiedosto.lataaTiedostosta(tiedosto);
         for (makroravinteet tiedot : makroravinteetLista) {
             pvmLista.add(tiedot.getPvm().format(pvmMuotoilu));
