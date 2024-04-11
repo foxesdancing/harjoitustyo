@@ -37,7 +37,8 @@ public class makroravinteetTiedosto {
         }
     }
     /**
-     * Metodi joka lataa tiedot tiedostosta ja palauttaa makroravinteet listan
+     * Metodi joka lataa tiedot tiedostosta ja palauttaa makroravinteet listan.
+     * Jos päivämäärän tai makroravinteiden määrän muunnos epäonnistuu, metodi tulostaa virheviestin
      * @param tiedosto      Tiedosto johon tiedot tallennetaan
      * @return makroravinteetLista
      */

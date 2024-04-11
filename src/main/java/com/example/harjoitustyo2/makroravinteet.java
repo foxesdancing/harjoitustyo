@@ -129,7 +129,7 @@ public class makroravinteet implements Serializable {
     public String toString() {
         return "Päivämäärä: " + pvm.format(DateTimeFormatter.ofPattern("dd.MM.yyyy")) +"\n" +
                 "Kalorit: "+ String.format("%.0f", kalorit) + "\n" + "Proteiini: " + proteiini +
-                " g \n" + "Rasvat: " + rasvat + " g \n" + "Sokerit: " + sokerit + "g \n" +
-                "Hiilihydraatit: " + hiilihydraatit;
+                "g \n" + "Rasvat: " + rasvat + "g \n" + "Sokerit: " + sokerit + "g \n" +
+                "Hiilihydraatit: " + hiilihydraatit + "g";
     }
 }
