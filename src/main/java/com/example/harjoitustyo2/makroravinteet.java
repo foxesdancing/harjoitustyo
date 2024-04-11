@@ -123,7 +123,7 @@ public class makroravinteet implements Serializable {
     }
 
     /**
-     * Palauttaa String version luokan tiedoista.
+     * Metodi palauttaa tiedot String muodossa
      * @return String
      */
     public String toString() {

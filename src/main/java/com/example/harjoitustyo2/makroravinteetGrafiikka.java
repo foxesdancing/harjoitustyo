@@ -166,7 +166,7 @@ public class makroravinteetGrafiikka extends Application {
     }
 
     /**
-     *    Metodi joka tallentaa tiedot tiedostoon
+     * Metodi joka tallentaa tiedot tiedostoon ja antaa virheen jos kenttään annettu tieto ei ole numeroina.
      * @param pvmS
      * @param proteiiniS
      * @param rasvatS
@@ -174,7 +174,6 @@ public class makroravinteetGrafiikka extends Application {
      * @param hiilihydraatitS
      * @param kaloritS
      */
-
     private void tallennaTiedot(String pvmS, String proteiiniS, String rasvatS, String sokeritS,
                                     String hiilihydraatitS, String kaloritS) {
         try{
@@ -231,7 +230,8 @@ public class makroravinteetGrafiikka extends Application {
     }
 
     /**
-     *  Lataa makroravinteiden tiedot tiedostosta ja lisää ladatun päivämäärän päivämäärä-listaan
+     *  Metodi lataa makroravinteiden tiedot tiedostosta, päivittää nämä ja näihin liittyvät päivämäärät ja lisäävät nämä listoihin.
+     *  Päivämäärä lisätään halutussa muodossa.
      */
     private void lataaTiedot() {
         makroravinteetLista = makroravinteetTiedosto.lataaTiedostosta(tiedosto);

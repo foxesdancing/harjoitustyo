@@ -18,7 +18,7 @@ public class makroravinteetTiedosto {
      */
     private static final DateTimeFormatter pvmMuotoilu = DateTimeFormatter.ofPattern("dd.MM.yyyy"); // päivämäärän muotoilu MM isolla koska pienellä tarkoittaa minuutteja
     /**
-     * Metodi joka tallentaa makroravinteiden tiedot tiedostoon.
+     * Metodi joka tallentaa makroravinteiden tiedot tiedostoon sopivassa muodossa.
      * @param tiedosto              Tiedosto johon tiedot tallennetaan
      * @param pvmS                  Päivämäärä merkkijonona muodossa "dd.MM.yyyy"
      * @param proteiiniS            Proteiinin määrä merkkijonona
@@ -37,7 +37,7 @@ public class makroravinteetTiedosto {
         }
     }
     /**
-     * Metodi joka lataa tiedot tiedostosta
+     * Metodi joka lataa tiedot tiedostosta ja palauttaa makroravinteet listan
      * @param tiedosto      Tiedosto johon tiedot tallennetaan
      * @return makroravinteetLista
      */

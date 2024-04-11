@@ -4,7 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4800257-8e16-41b1-8af1-1627e7214d9d" name="Changes" comment="1.0" />
+    <list default="true" id="e4800257-8e16-41b1-8af1-1627e7214d9d" name="Changes" comment="korjauksia">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/allpackages-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.example.harjoitustyo2/com/example/harjoitustyo2/class-use/makroravinteet.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com.example.harjoitustyo2/com/example/harjoitustyo2/class-use/makroravinteet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.example.harjoitustyo2/com/example/harjoitustyo2/class-use/makroravinteetGrafiikka.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com.example.harjoitustyo2/com/example/harjoitustyo2/class-use/makroravinteetGrafiikka.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.example.harjoitustyo2/com/example/harjoitustyo2/class-use/makroravinteetTiedosto.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com.example.harjoitustyo2/com/example/harjoitustyo2/class-use/makroravinteetTiedosto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.example.harjoitustyo2/com/example/harjoitustyo2/makroravinteet.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com.example.harjoitustyo2/com/example/harjoitustyo2/makroravinteet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.example.harjoitustyo2/com/example/harjoitustyo2/makroravinteetGrafiikka.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com.example.harjoitustyo2/com/example/harjoitustyo2/makroravinteetGrafiikka.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.example.harjoitustyo2/com/example/harjoitustyo2/makroravinteetTiedosto.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com.example.harjoitustyo2/com/example/harjoitustyo2/makroravinteetTiedosto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.example.harjoitustyo2/com/example/harjoitustyo2/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com.example.harjoitustyo2/com/example/harjoitustyo2/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.example.harjoitustyo2/com/example/harjoitustyo2/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com.example.harjoitustyo2/com/example/harjoitustyo2/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.example.harjoitustyo2/com/example/harjoitustyo2/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com.example.harjoitustyo2/com/example/harjoitustyo2/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.example.harjoitustyo2/module-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com.example.harjoitustyo2/module-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/serialized-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/serialized-form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/harjoitustyo2/makroravinteet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/harjoitustyo2/makroravinteet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/harjoitustyo2/makroravinteetGrafiikka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/harjoitustyo2/makroravinteetGrafiikka.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/harjoitustyo2/makroravinteetTiedosto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/harjoitustyo2/makroravinteetTiedosto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,7 +168,28 @@
       <option name="project" value="LOCAL" />
       <updated>1712778699223</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="1.0">
+      <created>1712778729486</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712778729486</updated>
+    </task>
+    <task id="LOCAL-00008" summary="1.0">
+      <created>1712779028633</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1712779028633</updated>
+    </task>
+    <task id="LOCAL-00009" summary="korjauksia">
+      <created>1712854958826</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1712854958826</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,6 +210,7 @@
     <MESSAGE value="kuva.png" />
     <MESSAGE value="javadoc korjailua ja kuvien lisääminen grafiikkaan" />
     <MESSAGE value="1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.0" />
+    <MESSAGE value="korjauksia" />
+    <option name="LAST_COMMIT_MESSAGE" value="korjauksia" />
   </component>
 </project>
